@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend><b>Sign UP</b></legend>
+            <label for="un">Enter Username:</label>
+            <input type="text" id="un" placeholder="Enter Username" required>
+            <br><br>
+
+            <label for="Password">Enter Password:</label>
+            <input type="password" id="Password" placeholder="Enter Password" required>
+            <br><br>
+
+            <label for="email">Enter Email:</label>
+            <input type="email" id=" email" placeholder="Enter Email" required>
+            <br><br>
+
+            <label for="ph no">Enter Phone number:</label>
+            <input type="tel" id="ph no" placeholder="Enter Phone number" maxlength="10" minlength="10" required>
+            <br><br>
+
+            <label for="age">Enter age:</label>
+            <input type="number" id="age" placeholder="Enter age" max="25" min="18" required>
+             <br><br>
+
+            <label for="dob"> Date of Birth:</label>
+            <input type="datetime-local" id="dob" placeholder="Date of Birth">
+            <br><br>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gen" value="male">male
+            <input type="radio" name="gen" value="female">female
+            <input type="radio" name="gen" value="othres">othres
+            <br><br>
+
+            <label for="add">Address:</label>
+            <textarea name="add" id="add" cols="10" rows="5"></textarea>
+            <br><br>
+
+            <label for="st">state:</label>
+            <select name="state" id="st">
+                <option value=" ">----Select state-----</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Pondicherry">Pondicherry</option>
+                <option value="Goa">Goa</option>
+                <option value="Kerala">Kerala</option>
+            </select>
+            <br><br>
+
+            <button>SUBMIT</button>
+
+        </fieldset>
+    </form>
+</body>
+</html>
