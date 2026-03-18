@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(23, 229, 212);">
+    <h1 style="text-align: center;">Addmission Form</h1>
+    <form action="">
+        <fieldset >
+            <legend><i>Personal Information</i></legend>
+            <label for="name" ><b>Registration No:</b></label>
+            <input type="text" id="name" placeholder="Enter Registration no" >
+            <label for="student"><b>Student Name:-</b></label>
+            <input type="text" id="student" placeholder="Enter name">
+            <br><br>
+            <label for="father"><b>Father Name:-</b></label>
+            <input type="text" id="father" placeholder="Enter Father name">
+            <label for="email"><b>E-mail:-</b></label>
+            <input type="email" id="email" placeholder="Enter email">
+            <br><br>
+            <label for="mother"><b>Mother Name:-</b></label>
+            <input type="text" id="mother" placeholder="Enter Mother name">
+            <label for="date"><b>Date of Birth:-</b></label>
+            <input type="date" id="date" >
+            <br><br>
+            <label for="aadhar"><b>Aadhar Number:-</b></label>
+            <input type="tel" id="aadhar" placeholder="Enter Mother name" maxlength="12" minlength="12" pattern="[0-9]{12}">
+            <label for="mobile"><b>Mobile Number:</b></label>
+            <input type="tel" id="mobile" placeholder="Enter number" maxlength="10" minlength="10" pattern="[0-9]{10}">
+            <br><br>
+            <label for="select"><b>Select Gender:-</b></label>
+            <input type="radio" value="male" name="select">Male
+            <input type="radio" value="female" name="select">Female
+            <input type="radio" value="other" name="select">Other
+
+        </fieldset>
+    <br>
+        <fieldset>
+            <legend><i>Education Qualification</i></legend>
+            <table border="1px" cellspacing="2" cellpadding="2">
+                <tr>
+                    <td style="text-align: center;"><b>Select Board</b></td>
+                    <td style="text-align: center;"><b>Total Number</b></td>
+                    <td style="text-align: center;"><b>Optain Number</b></td>
+                    <td style="text-align: center;"><b>Percentage</b></td>
+                </tr>
+                <tr>
+                    <td><label for="high"><b>High School:-</b></label>
+                    <select name="high" id="high">
+                        <option value="">select Board</option>
+                        <option value="state">State</option>
+                        <option value="central">Central</option>
+                    </select></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td><label for="inter"><b>Intermidiate:-</b></label>
+                        <select name="inter" id="inter">
+                        <option value="">select Board</option>
+                        <option value="state">State</option>
+                        <option value="central">Central</option>
+                    </select></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td><label for="grad"><b>Graduate:-</b></label>
+                        <select name="grad" id="grad">
+                        <option value="">select Board</option>
+                        <option value="state">State</option>
+                        <option value="central">Central</option>
+                    </select></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                </tr>
+            </table>
+
+        </fieldset>
+    <br>
+        <fieldset>
+            <legend><i>Course Applied</i></legend>
+            <label for="sel">Select course type of course:</label>
+            <select name="sel" id="sel">
+                <option value="">----Select course----</option>
+                <option value="bca">Bca</option>
+                <option value="be">BE</option>
+                <option value="ba">BA</option>
+            </select>
+            <br>
+            <label for="under"><b>Choose <u>Under Graduate</u>  subject here...</b></label>
+            <input type="radio" name="under" value="bca"><b>BCA</b>
+            <input type="radio" name="under" ><b>BA</b>
+            <input type="radio" name="under" ><b>B.com </b>
+            <input type="radio" name="under" ><b>BBA</b>
+            <input type="radio" name="under" ><b>LLB</b>
+            <input type="radio" name="under" ><b>B.sc</b>
+            <br>
+            <label for="post"><b>Choose <u>Post Graduate</u> subject here...</b></label>
+            <input type="radio" name="post"><b>MCA</b>
+            <input type="radio" name="post"><b>LLM</b>
+            <input type="radio" name="post"><b>M.com</b>
+            <input type="radio" name="post"><b>M.sc</b>
+
+        </fieldset>
+        <input type="checkbox" name="" id="">I here by declare that the given above is true and correct to the best of my knowledge and belief.
+        <br>
+        <button style="background-color: rgb(44, 175, 195); text-align: center;">Register</button>
+        <button style="background-color: rgb(183, 66, 209);">clear</button>
+    </form>
+</body>
+</html>
